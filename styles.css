@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #45d8ab;
+    width: 100%;
+    /* padding: 2px 0; */
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container, .enrolled-container {
+    padding: 20px;
+    width: 50%;
+}
+
+.divider {
+    width: 5px;
+    background-color: #d6f0e7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="url"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 2;
+}
+
+.gender-container, .skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.button-group {
+    display: flex;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enroll-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.clear-button {
+    background-color: #dc3545;
+    color: #fff;
+    margin:10px;
+}
+
+.enrolled-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.enrolled-container th, .enrolled-container td {
+    border: 1px solid #d5e2b0;
+    padding: 10px;
+    text-align: left;
+}
+
+.enrolled-container th {
+    color: white;
+    background-color: #a7c941;
+}
+
+.enrolled-container tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.enrolled-container tr:nth-child(even) {
+    background-color: #ebf2d3;
+}
+
+.enrolled-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
